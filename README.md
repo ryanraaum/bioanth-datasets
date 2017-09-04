@@ -1,2 +1,2 @@
 # bioanth-datasets
-A collection of example datasets from biological anthropology
+An R package with a collection of example datasets from biological anthropology.
