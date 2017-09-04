@@ -1,0 +1,14 @@
+Package: bioanthdatasets
+Type: Package
+Title: bioanthdatasets - real bioanth data examples
+Version: 0.1.0
+Date: 2017-09-03
+Author: Ryan Raaum
+Maintainer: Ryan Raaum <bioanthdatasets@raaum.org>
+Description: This package includes several real, published datasets from 
+  biological anthropology. They have been chosen to cover the types of data 
+  typically analyzed across a broad range of biological anthropology subject areas.
+License: CC-BY-4.0
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: ape

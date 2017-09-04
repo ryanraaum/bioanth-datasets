@@ -1,5 +1,5 @@
 Enamel thickness and other molar data as tabulated in Skinner et al. 2015, 
-doi:0.1016/j.jhevol.2015.03.012
+doi:10.1016/j.jhevol.2015.03.012
 
 The data includes 9 columns:
 - accession
