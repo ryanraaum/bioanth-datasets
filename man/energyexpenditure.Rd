@@ -22,9 +22,10 @@ Pontzer H, Raichlin DA, Gordon AD, Schroepfer-Walker KK, Hare B,
   The data were extracted from the supplementary material. The following
   modifications were made:
   \itemize{
-    \item renamed the admixed Eulemur sp. as Eulemur
-    \item dropped the second Peromyscus maniculatus data point (which was not
-    used in primate - nonprimate comparisons in Pontzer et al.)
+    \item renamed the admixed \emph{Eulemur sp.} as \emph{Eulemur}
+    \item dropped the second \emph{Peromyscus maniculatus} data point (which
+    was not used in primate - nonprimate comparisons in Pontzer et al.)
+    \item \emph{Eremitalpa namibensis} is not a rodent, it's an Afrosoricid 
   }
 }
 \usage{

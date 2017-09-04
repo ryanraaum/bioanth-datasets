@@ -3,7 +3,7 @@
 \docType{data}
 \name{energyexpendituretree}
 \alias{energyexpendituretree}
-\title{Phylogenetic tree for 77 mammalian species.}
+\title{Phylogenetic tree for 81 mammalian species.}
 \format{A phylogenetic tree in the \code{ape} \code{\link[ape]{phylo}}
   format.}
 \source{
@@ -15,17 +15,23 @@ Bininda-Emonds ORP, Cardillo M, Jone KE, MacPhee RDE, Deck RMD,
   The tree was taken from the supplementary material. The following
   modifications were made:
   \itemize{
-    \item reduced to the taxa present in the \code{\link{energyexpenditure}} dataset.
-    \item \emph{Euleumur fulvus} used as the tip for the admixed \emph{Eulemur} group
-    \item \emph{Proteles cristatus} renamed to \emph{Proteles cristata} (typo in source)
-    \item Homo_sapiens renamed to Homo_sapiens_Hadza
+    \item reduced to the taxa present in the \code{\link{energyexpenditure}}
+    dataset.
+    \item \emph{Euleumur fulvus} used as the tip for the admixed
+    \emph{Eulemur} group
+    \item \emph{Proteles cristatus} renamed to \emph{Proteles cristata} (typo
+    in source)
+    \item \emph{Homo sapiens} renamed to \emph{Homo sapiens} Hadza
+    \item \emph{Canis rufus} used for \emph{Canis familiaris}
+    \item \emph{Chrysochloris asiatica} used for \emph{Eremitalpa namibensis}
+    \item \emph{Lemmus sibiricus} used for \emph{Lemmus trimucronatus}
   }
 }
 \usage{
 \code{data(energyexpendituretree)}
 }
 \description{
-A phylogenetic tree for 77 mammalian species in the 
+A phylogenetic tree for 81 mammalian species in the 
 \code{\link{energyexpenditure}} dataset.
 }
 \examples{

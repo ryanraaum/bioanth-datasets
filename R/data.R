@@ -60,18 +60,19 @@
 #'   The data were extracted from the supplementary material. The following
 #'   modifications were made:
 #'   \itemize{
-#'     \item renamed the admixed Eulemur sp. as Eulemur
-#'     \item dropped the second Peromyscus maniculatus data point (which was not
-#'     used in primate - nonprimate comparisons in Pontzer et al.)
+#'     \item renamed the admixed \emph{Eulemur sp.} as \emph{Eulemur}
+#'     \item dropped the second \emph{Peromyscus maniculatus} data point (which
+#'     was not used in primate - nonprimate comparisons in Pontzer et al.)
+#'     \item \emph{Eremitalpa namibensis} is not a rodent, it's an Afrosoricid 
 #'   }
 #' @examples 
 #' boxplot(aet ~ taxon, data=enamelthickness, 
 #'                      las=2, cex.axis=0.65)
 "energyexpenditure"
 
-#' Phylogenetic tree for 77 mammalian species.
+#' Phylogenetic tree for 81 mammalian species.
 #' 
-#' A phylogenetic tree for 77 mammalian species in the 
+#' A phylogenetic tree for 81 mammalian species in the 
 #' \code{\link{energyexpenditure}} dataset.
 #' 
 #' @format A phylogenetic tree in the \code{ape} \code{\link[ape]{phylo}}
@@ -87,10 +88,16 @@
 #'   The tree was taken from the supplementary material. The following
 #'   modifications were made:
 #'   \itemize{
-#'     \item reduced to the taxa present in the \code{\link{energyexpenditure}} dataset.
-#'     \item \emph{Euleumur fulvus} used as the tip for the admixed \emph{Eulemur} group
-#'     \item \emph{Proteles cristatus} renamed to \emph{Proteles cristata} (typo in source)
-#'     \item Homo_sapiens renamed to Homo_sapiens_Hadza
+#'     \item reduced to taxa present in the \code{\link{energyexpenditure}}
+#'     dataset.
+#'     \item \emph{Euleumur fulvus} used as the tip for the admixed
+#'     \emph{Eulemur} group
+#'     \item \emph{Proteles cristatus} renamed to \emph{Proteles cristata} (typo
+#'     in source)
+#'     \item \emph{Homo sapiens} renamed to \emph{Homo sapiens} Hadza
+#'     \item \emph{Canis rufus} used for \emph{Canis familiaris}
+#'     \item \emph{Chrysochloris asiatica} used for \emph{Eremitalpa namibensis}
+#'     \item \emph{Lemmus sibiricus} used for \emph{Lemmus trimucronatus}
 #'   }
 #' @examples 
 #' plot(energyexpendituretree, cex=0.5)
