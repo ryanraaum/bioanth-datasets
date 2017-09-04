@@ -1,3 +1,7 @@
+options(stringsAsFactors = F)
 library(ape)
+library(devtools)
 energyexpenditure = read.csv('data-raw/energyexpenditure.csv')
 energyexpendituretree = read.tree('data-raw/energyexpenditure.nwk')
+use_data(energyexpenditure)
+use_data(energyexpendituretree)
